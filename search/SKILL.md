@@ -20,7 +20,7 @@ In order to keep the context window small, never use these curls in current cont
 Always use `pi` command to search. Example:
 
 ```bash
-timeout 60 pi -p "use search skill to {{SPECIFY YOUR QUERY}}"
+timeout 60 pi -p "use search skill to {{SPECIFY YOUR QUERY}}. DO NOT run `pi` command as you are making actual calls now."
 ```
 
 ### Exa Search
