@@ -29,6 +29,7 @@ curl -X POST "https://api.exa.ai/search" \
 ```
 
 DO NOT read $EXA_API_KEY from your environment variables.
+Assume $EXA_API_KEY is available.
 If it's not available or limit reached fallback to Serp API search.
 
 ### Serp API
