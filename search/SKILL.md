@@ -30,7 +30,18 @@ curl -X POST "https://api.exa.ai/search" \
 
 DO NOT read $EXA_API_KEY from your environment variables.
 Assume $EXA_API_KEY is available.
-If it's not available or limit reached fallback to Serp API search.
+
+### Firecrawl Search
+
+```bash
+firecrawl search "YOUR QUERY"
+```
+
+### Tavily Search
+
+```bash
+tvly search "your first query"
+```
 
 ### Serp API
 
@@ -43,8 +54,5 @@ serpapi search \
 
 If Serp API is not available fallback to Firecrawl Search.
 
-### Firecrawl Search
-
-```bash
-firecrawl search "YOUR QUERY"
+```
 ```
