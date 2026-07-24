@@ -48,13 +48,3 @@ If Serp API is not available fallback to Firecrawl Search.
 ```bash
 firecrawl search "YOUR QUERY"
 ```
-
-If Firecrawl doesn't work fallback to DuckDuckGo HTML Search.
-
-### DuckDuckGo HTML Search
-
-```bash
-curl --get https://html.duckduckgo.com/html/?q=YOUR+QUERY
-```
-
-Note: this returns html, so you need to parse it.
