@@ -1,11 +1,13 @@
 ---
 name: search
-description: This skill helps you with searching the web
+description: This skill helps you with searching the web using `pi` command.
 ---
 
 # search
 
 Use CLI commands to search web with `pi` command.
+
+DO NOT run these command directly in current context.
 
 ## When to use
 
