@@ -35,10 +35,10 @@ If it's not available or limit reached fallback to Serp API search.
 ### Serp API
 
 ```bash
-curl --get https://serpapi.com/search \
- -d engine="google" \
- -d q="YOUR QUERY" \
- -d kl="us-en"
+serpapi search \
+  q="YOUR QUERY" \
+  hl="en" \
+  google_domain="google.com"
 ```
 
 If Serp API is not available fallback to Firecrawl Search.
