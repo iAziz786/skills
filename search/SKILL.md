@@ -15,13 +15,7 @@ Use for search, research.
 
 ## Instructions
 
-In order to keep the context window small, never use these curls in current context.
-
-Always use `pi` command to search. Example:
-
-```bash
-timeout 60 pi -p "use search skill to {{SPECIFY YOUR QUERY}}. DO NOT run `pi` command as you are making actual calls now."
-```
+Call these commands to search the web.
 
 ### Exa Search
 
