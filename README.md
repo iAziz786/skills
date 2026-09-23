@@ -39,3 +39,4 @@ CLI reference: https://skills.sh/docs/cli
 | `concise` | More comprehensive and concise answers; every word must prove its worth for user understanding. |
 | `proposal` | Drafts a pragmatic, low-level fix proposal before code is written. |
 | `search` | Web search via CLI providers: Exa, Firecrawl, Tavily, Serp API. |
+| `ola` | One-line answer mode; toggles on/off with `/ola on` and `/ola off`. |
